@@ -1,0 +1,48 @@
+.pokemon-card {
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  padding: 1.50rem;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.08);
+}
+
+.pokemon-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.pokemon-header h3 {
+  align-items: left;
+  font-size: 1.25rem;
+}
+
+.type-pill {
+  background: #ffcb05;
+  color: #222;
+  border-radius: 999px;
+  padding: 0.3rem 0.3rem;
+  font-size: 0.70rem;
+  font-weight: bold;
+  white-space: wrap;
+}
+
+.pokemon-details {
+  margin: 0.75rem 0;
+}
+
+.pokemon-details dt {
+  font-size: 0.70rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: #888;
+  margin-top: 0.5rem;
+  align-content: center;
+}
+
+.pokemon-details dd {
+  margin: 0.1rem 0 0 0;
+  font-size: 0.95rem;
+  color: #222;
+}

@@ -1,0 +1,16 @@
+<section class="region-section johto">
+  <h2>My Favorite Johto Region Pokemon</h2>
+  <div class="card-grid">
+    @for (pokemon of myPokemon; track pokemon.name) {
+      <app-pokemon-info
+        [photo] = "pokemon.photo"
+        [name] = "pokemon.name"
+        [region] = "pokemon.region"
+        [type] = "pokemon.type"
+        [item] = "pokemon.item"
+        [itemName] = "pokemon.itemName"
+        [description] = "pokemon.description"
+      />
+    }
+  </div>
+</section>

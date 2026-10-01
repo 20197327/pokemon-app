@@ -1,0 +1,21 @@
+<article class="pokemon-card">
+  <header class="leader-header">
+    <img src="{{ photo() }}">
+    <h3>{{ name() }}</h3>
+  </header>
+
+  <dl class="pokemon-details">
+    <dt class="type-pill">  {{ type() }}</dt>
+
+    <dt>Region</dt>
+    <dd>📍 {{ region() }}</dd>
+
+    <dt>Held Item</dt>
+  <img src="{{ item() }}" alt="{{ itemName() }}">
+    <dd>{{ itemName() }}</dd>
+
+    <dt>Description</dt>
+    <dd>{{ description() }}</dd>
+  </dl>
+
+</article>
